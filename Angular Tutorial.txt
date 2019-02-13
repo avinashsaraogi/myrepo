@@ -1,0 +1,15 @@
+Node js for npm
+
+npm -v
+node -v
+npm install -g @angular/cli
+npm install - if dependencies are missing in project
+ng new  angular-training
+ng serve -o
+ng generate component *
+ng g c shared/header
+npm install bootstrap
+Ng g p employeeTitle
+Ng g s <service name>
+Ng generate class User
+Ng test
