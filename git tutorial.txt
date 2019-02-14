@@ -1,0 +1,26 @@
+Git scm for download
+
+$ git config --global user.email "avinashsaraogi@gmail.com"
+$ git config --global user.name "avinash"
+$ git init
+$ git status
+$ git add index.html
+$ git status
+$ git commit -m "created home page"
+$ git log
+$ git checkout 29425731c0799ab4045d4c4afa40d65f00b00275
+$ git remote add origin https://github.com/avinashsaraogi/myrepo.git
+$ git push -u origin master
+$ git branch
+$ git clone https://github.com/avinashsaraogi/myrepo.git
+$ git add .
+$ git pull
+$ git branch develop
+$ git checkout develop
+$ git push -u origin develop
+$ git checkout master
+$ git branch --merged
+$ git branch --no-merged
+$ git merge develop
+$ git branch -d develop - Used to delete branch
+$ git push origin --delete develop
