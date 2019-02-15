@@ -24,3 +24,18 @@ $ git branch --no-merged
 $ git merge develop
 $ git branch -d develop - Used to delete branch
 $ git push origin --delete develop
+$ git tag v1.0
+$ git show v1.0
+$ git tag -a v1.1 -m "it is another tag"
+$ git show v1.1 > abc
+$ git push origin --tags
+$ git checkout -b firstversion 1.0
+$ git tag -d v1.1 v1.3
+$ git push origin -d v1.1 v1.3
+$ git stash list
+$ git stash
+$ git stash apply
+$ git stash apply 2
+$ git stash push -m "it is para change"
+$ git stash drop 1
+$ git stash clear
