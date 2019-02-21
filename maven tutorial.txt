@@ -49,6 +49,22 @@ mvn archetype:create -DgroupId=com.me -DartifactId=vehicles -DarchetypeArtifactI
 
 mvn archetype:generate -DgroupId=com.companyname.automobile -DartifactId=trucks -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 
+mvn archetype:generate
+mvn package
+mvn clean
+Mvn compile
+Mvn test
+Mvn install
+Mvn clean install
+Mvn eclipse:eclipse
+Java -cp maven-demo-1.jar com.demo.App
+Phases:
+	Validate
+	Clean
+	Compile
+	Test
+	Install
+	Deploy
 
 Spring Boot
 
@@ -96,3 +112,5 @@ Instructs that the application should auto configure the other frameworks includ
 
 
  can responseentity or responsebody identify timeout response?
+ 
+ 
