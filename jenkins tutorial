@@ -1,0 +1,11 @@
+Java -jar jenkins.war --httpPort=8989
+Select plugins, none
+http://updates.jenkins-ci.org/update-center.json
+Plugins :
+	Email notification
+	Git plugin
+	Maven integration
+	Deploy to container
+	Build pipeline
+
+Delivery pipeline
