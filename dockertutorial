@@ -13,7 +13,7 @@ Docker run tomcat:8.0
 Docker exec -it 50e bash -> to go inside the container
 Ip addr show
 Ip:8080 --> to access tomcat but did not work
-Docker inspect 50e
+Docker inspect 50e -> give container IP
 Docker stop 50e
 Docker run -p host:container tomcat:8.0
 Docker run -p 8989:8080 tomcat:8.0
@@ -23,6 +23,8 @@ Docker search php
 Docker build -t my-tomcat-images:1.0  .-> path to docker file
 Docker run -p 8888:8080 Image_Id
 Docker run -p 8888:8080 --name=my-tomcat-container Image_Id
+Docker commit containerId newImageName
+Docker run -d -p 8888:8080 Image_Id ( -d to run in background)
 
 FROM tomcat:8
 COPY . /usr/local/tomcat/webapps/myapp
@@ -33,3 +35,4 @@ C:\Users\Arun\.docker\machine\machines\default
 Change DNS if you get timeout from registry
 "8.8.8.8",
 "8.8.4.4"
+
