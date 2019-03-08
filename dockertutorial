@@ -25,6 +25,11 @@ Docker run -p 8888:8080 Image_Id
 Docker run -p 8888:8080 --name=my-tomcat-container Image_Id
 Docker commit containerId newImageName
 Docker run -d -p 8888:8080 Image_Id ( -d to run in background)
+Docker push image:tag
+Docker pull image:tag
+Docker inspect
+Docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=secret -d mysql:tag
+Docker run -it --link my-mysql :mysql  mysql sh -c "exec mysql --host=172.17.0.2 --port=3306 -u root -p" 
 
 FROM tomcat:8
 COPY . /usr/local/tomcat/webapps/myapp
