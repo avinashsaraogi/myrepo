@@ -1,0 +1,11 @@
+Sudo su
+Sudo yum update -y
+sudo yum install -y docker
+Sudo service docker start
+sudo yum install -y httpd
+Cd /var/www/html
+Cat > index.html ( to create a new file )
+Sudo service httpd start
+Use putty and puttygen
+Chmod 400 *.pem
+Ssh -i *.pem ec2-user@IP
